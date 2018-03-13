@@ -1,0 +1,29 @@
+ html {
+    font-size: 100%;
+ }
+ body {
+     font-size: 1em;
+     font-family: Arial, Verdana, Tahoma, sans-serif;
+     /* color: #000000;
+     color: rgb(0,0,0); */
+     color: rgba(0,0,0,0.9)
+ }
+ h1 {
+     font-size: 2rem;
+     margin-top: 0.8rem;
+     margin-bottom: 0.8rem;
+ }
+h2 {
+    font-size: 1.4rem;
+     margin-top: 0.7rem;
+     margin-bottom: 0.7rem;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
