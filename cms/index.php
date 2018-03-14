@@ -42,6 +42,7 @@
                 </article>
                 <!-- <article>
                     <h2></h2>
+                    
                 </article> -->
                 <footer></footer>
             </main>
@@ -60,7 +61,8 @@
                 // console.log($(this).html());
 
                 //AJAX Daten an PHP                             //elem: $(this).attr('name') // $(this).name
-                $.post("save_content.php",{ pid: $("#pid").val(), elem: $(this).attr('name'), inhalt: $(this).html() }, function(data, status){
+                $.post("save_content.php",{ pid: $("#pid").val(), elem: $(this).attr('name'), inhalt: $(this).html() }, 
+                function(data, status){
                     console.log(data + " : " + status);
                 })
                 $(this).removeAttr("contenteditable");
