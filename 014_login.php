@@ -9,7 +9,7 @@
         unset($_SESSION['my_log_id']);
         session_destroy();
     }
-    
+    //https://www.youtube.com/watch?v=sssVKXQWcOI
 ?>
 
 <!DOCTYPE html>
